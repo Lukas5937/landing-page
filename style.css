@@ -86,6 +86,7 @@ button {
 
 
 .top {
+    margin-bottom: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,4 +120,30 @@ h2 {
 .image p {
     width: 150px;
     text-align: center;
+}
+
+.middle {
+    background-color: #E5E7EB;
+    padding: 70px 320px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote-text, .author {
+    color: #1F2937;
+    margin: 0;
+}
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+ 
+.author {
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 35px;
 }
