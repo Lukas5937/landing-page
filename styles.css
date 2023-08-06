@@ -1,0 +1,164 @@
+:root {
+    --dark-color: #b0b1ad;
+    --bright-color: #E5E7EB;
+    --blue: #3882f6;
+}
+
+
+body {
+    background-color: #1F2937;
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: var(--dark-color);
+
+}
+
+#header-logo {
+    font-size: 24px;
+    color: var(--bright-color);
+}
+
+ul {
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+.hero {
+    margin: 96px 0;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.hero-text {
+    max-width: 450px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: var(--bright-color);
+    margin: 0;
+}
+
+p {
+    color: var(--dark-color);
+    font-size: 18px;
+}
+
+button {
+    background-color: var(--blue);
+    padding: 8px 32px;
+    border: 0px;
+    border-radius: 12px;
+    color: var(--bright-color);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero-image {
+    padding: 100px;
+    background-color: var(--dark-color);
+}
+
+.information {
+    padding: 32px 0 72px;
+    background-color: white;
+    color: #1f2937;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 160px;
+}
+
+.frame {
+    height: 150px;
+    width: 150px;
+    border: 4px solid var(--blue);
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 96px 296px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937
+}
+
+.author {
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up {
+    background-color: white;
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-wrapper {
+    background-color: var(--blue);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    padding: 48px 128px;
+}
+
+.sign-up-heading {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.sign-up-paragraph {
+    margin: 0;
+    color: var(--bright-color);
+
+}
+
+button.secondary {
+    color: white;
+    background-color: none;
+    border: 2px solid var(--bright-color);
+}
+
+footer {
+    text-align: center;
+    padding: 36px;
+    color: var(--dark-color);
+}
